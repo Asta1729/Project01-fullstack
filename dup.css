@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(../ed/edi.jpg);
+    background-size: cover;
+}
+main::before{
+    content: '';
+    position: absolute;
+    opacity: 10;
+}
+header section{
+    z-index: 2;
+    padding: 0 0;
+}
+header ol{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+header ol li{
+    padding: 0 3vh;
+}
+header ol li a{
+    text-transform: uppercase;
+    color: ghostwhite;
+    text-decoration: none;
+    font-size: 16px;
+}
+header ol li a.abc{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    font-size: 16px;
+}
+header ol li a.abc::after{
+    content: '';
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+}
+.ab{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 2px solid ghostwhite;
+}
+section{
+    position: absolute;
+    text-align: left;
+    top: 1%;
+    left: 0%;
+}
+header ol li button{
+    background-color: #45a049;
+    color: rgba( 255, 255, 255, 0.8);
+    font-weight: 700;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 2vh 4vh;
+    cursor: pointer;
+    border-radius: 1vh;
+}
+.def{
+    color: aliceblue;
+}
+h1{
+    font-size: 30px;
+}
